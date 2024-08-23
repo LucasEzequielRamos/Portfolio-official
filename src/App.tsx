@@ -1,13 +1,12 @@
 import "./App.css";
+import Hero from "./components/hero";
 import Navbar from "./components/navbar";
 
 function App() {
   return (
     <>
       <Navbar />
-      <h1 className="text-10xl absolute top-9 left-16">
-        Portfolio lucas ramos
-      </h1>
+      <Hero />
     </>
   );
 }
