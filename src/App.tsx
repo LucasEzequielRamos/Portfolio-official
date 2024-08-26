@@ -1,4 +1,6 @@
 import "./App.css";
+import CallToAction from "./components/call-to-action";
+import Experience from "./components/experience";
 import Hero from "./components/hero";
 import Navbar from "./components/navbar";
 
@@ -7,6 +9,8 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <Experience />
+      <CallToAction />
     </>
   );
 }

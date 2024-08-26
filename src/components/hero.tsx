@@ -4,10 +4,12 @@ import { IconBrandTelegram } from "@tabler/icons-react";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col mt-40 w-11/12 mx-auto">
+    <section className="flex flex-col mt-40 w-11/12 mx-auto">
       <div className="text-sm flex flex-col text-center">
         <h3 className="text-2xl pb-2">Yo soy Lucas</h3>
-        <h2 className="text-4xl pb-8">Web Fullstack Developer</h2>
+        <h2 className="text-4xl pb-8 font-bold bg-gradient-to-r from-primary via-primary/90 to-font bg-clip-text text-transparent">
+          Web Fullstack Developer
+        </h2>
         <p className="pb-4">
           Estoy disponible para trabajar, contactame, ideemos y desarrollemos tu
           proyecto juntos
@@ -30,7 +32,7 @@ const Hero = () => {
       <div>
         <img src="/3d-image.webp" alt="image 3d to illustration" />
       </div>
-    </div>
+    </section>
   );
 };
 
