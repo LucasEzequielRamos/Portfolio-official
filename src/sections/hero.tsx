@@ -15,7 +15,7 @@ const Hero = () => {
           proyecto juntos
         </p>
         <div className="flex items-center justify-center gap-3 text-primary [&>a]:border-[1px] [&>a]:border-primary [&>a]:rounded-full [&>a]:p-1 ">
-          <button className="py-2 px-2 border-[1px] border-primary rounded-full">
+          <button className="p-2 border-[1px] border-primary rounded-full">
             Descargar CV
           </button>
           <a href="#">
@@ -30,7 +30,7 @@ const Hero = () => {
         </div>
       </div>
       <div>
-        <img src="/3d-image.webp" alt="image 3d to illustration" />
+        <img src="/assets/3d-image.webp" alt="image 3d to illustration" />
       </div>
     </section>
   );

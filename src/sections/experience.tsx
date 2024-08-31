@@ -1,13 +1,9 @@
-import React from "react";
+import TitleSection from "../components/title-section";
 
 const Experience = () => {
   return (
     <section id="experiencie" className=" mt-20 w-11/12 mx-auto">
-      <header className="w-5/6 p-2 rounded-lg mx-auto bg-secondary/50">
-        <h2 className="text-3xl text-center tracking-wide ">
-          Mi trayectoria profesional
-        </h2>
-      </header>
+      <TitleSection title="Mi trayectoria profesional" />
       <main className="mt-10">
         <div className=" grid justify-between gap-2 text-sm text-center grid-cols-2 mx-auto [&>div]:border-l-4 [&>div]:px-2 [&>div>h3]:text-xl [&>div>h3]:text-primary [&>div>h3]:font-bold ">
           <div>

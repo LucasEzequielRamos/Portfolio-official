@@ -1,0 +1,95 @@
+[
+    {
+        "title": "La Cruz Ora",
+        "subtitle": "Pagina de La Cruz Buenos Aires.",
+        "description": [
+            "Desarrollé un sistema que permite a los miembros de una iglesia enviar sus pedidos de oración a un grupo en Telegram.",
+            "Utilicé tecnologías como Next.js, PostgreSQL en Vercel, y la API  oficial de Telegram. El proyecto implicó el desafío de integrar APIs de mensajería para comunicar eficientemente con más de 50 personas por pedido, logrando una solución efectiva y económica."
+        ],
+        "images": [
+            {
+                "url": "/projects/lacruzora.png",
+                "alt": ""
+            },
+            {
+                "url": "/projects/lacruzora2.png",
+                "alt": ""
+            },
+            {
+                "url": "/projects/lacruzora3.png",
+                "alt": ""
+            }
+        ],
+        "technologies": [
+            "Next",
+            "TailwindCSS",
+            "Vercel PostgreSQL"
+        ],
+        "links": {
+            "liveDemo": "https://www.lacruz-ora.com/",
+            "sourceCode": "https://github.com/LucasEzequielRamos/request-page-lacruz-oficial"
+        }
+    },
+    {
+        "title": "La Cruz Ora",
+        "subtitle": "Pagina de La Cruz Buenos Aires.",
+        "description": [
+            "Desarrollé un sistema que permite a los miembros de una iglesia enviar sus pedidos de oración a un grupo en Telegram.",
+            "Utilicé tecnologías como Next.js, PostgreSQL en Vercel, y la API  oficial de Telegram. El proyecto implicó el desafío de integrar APIs de mensajería para comunicar eficientemente con más de 50 personas por pedido, logrando una solución efectiva y económica."
+        ],
+        "images": [
+            {
+                "url": "/projects/lacruzora.png",
+                "alt": ""
+            },
+            {
+                "url": "/projects/lacruzora2.png",
+                "alt": ""
+            },
+            {
+                "url": "/projects/lacruzora3.png",
+                "alt": ""
+            }
+        ],
+        "technologies": [
+            "Next",
+            "TailwindCSS",
+            "Vercel PostgreSQL"
+        ],
+        "links": {
+            "liveDemo": "https://www.lacruz-ora.com/",
+            "sourceCode": "https://github.com/LucasEzequielRamos/request-page-lacruz-oficial"
+        }
+    },
+    {
+        "title": "La Cruz Ora",
+        "subtitle": "Pagina de La Cruz Buenos Aires.",
+        "description": [
+            "Desarrollé un sistema que permite a los miembros de una iglesia enviar sus pedidos de oración a un grupo en Telegram.",
+            "Utilicé tecnologías como Next.js, PostgreSQL en Vercel, y la API  oficial de Telegram. El proyecto implicó el desafío de integrar APIs de mensajería para comunicar eficientemente con más de 50 personas por pedido, logrando una solución efectiva y económica."
+        ],
+        "images": [
+            {
+                "url": "/projects/lacruzora.png",
+                "alt": ""
+            },
+            {
+                "url": "/projects/lacruzora2.png",
+                "alt": ""
+            },
+            {
+                "url": "/projects/lacruzora3.png",
+                "alt": ""
+            }
+        ],
+        "technologies": [
+            "Next",
+            "TailwindCSS",
+            "Vercel PostgreSQL"
+        ],
+        "links": {
+            "liveDemo": "https://www.lacruz-ora.com/",
+            "sourceCode": "https://github.com/LucasEzequielRamos/request-page-lacruz-oficial"
+        }
+    }
+]
