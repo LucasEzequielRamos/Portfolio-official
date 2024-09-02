@@ -2,28 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
-  font-family: Arial, Helvetica, sans-serif, system-ui;
-  line-height: 1.5;
-  font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif, system-ui;
+    line-height: 1.5;
+    font-weight: 400;
 
-  color-scheme: light dark;
-  @apply text-font;
-  @apply bg-background;
+    color-scheme: light dark;
+    @apply text-font;
+    @apply bg-background;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  min-height: 100vh;
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
 }
 
 nav {
-  backdrop-filter: var(blur(8px));
+    backdrop-filter: var(blur(8px));
 }

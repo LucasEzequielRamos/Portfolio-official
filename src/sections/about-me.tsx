@@ -1,32 +1,49 @@
-import React from "react";
 import TitleSection from "../components/title-section";
 
 const AboutMe = () => {
   return (
     <section id="about-me" className=" mt-20 w-11/12 mx-auto">
       <TitleSection title="Sobre mi" />
-      <main className="mt-10">
-        <div className="flex flex-col gap-2">
+      <main className="mt-10 flex flex-col-reverse gap-10">
+        <div className="flex flex-col gap-4 ">
           <p>
-            Mi nombre es Lucas Ezequiel Ramos, tengo 20 años y estudio
-            Licenciatura en Informatica. Me encanta programar soluciones web y
-            diseñar paginas esteticas y minimalistas.
+            Mi nombre es Lucas Ezequiel Ramos, tengo 20 años y actualmente
+            estudio Licenciatura en Informática. Mi pasión es la{" "}
+            <span className="text-primary font-bold">
+              programación de soluciones web
+            </span>{" "}
+            y el{" "}
+            <span className="text-primary font-bold">
+              diseño de páginas estéticas
+            </span>{" "}
+            y minimalistas.
           </p>
           <p>
-            Empece mi formacion en la escuela Coder House en 2022 y termine en
-            2023, desde entonces aprendo de manera autodidacta a traves de
-            proyectos personales y trabajos.
+            Mi formación comenzó en 2022 en la escuela Coder House, y la
+            completé en 2023. Desde entonces, me he dedicado a aprender de
+            manera autodidacta a través de{" "}
+            <span className="text-primary font-bold">
+              proyectos personales y trabajos
+            </span>
+            , lo que me ha permitido desarrollar habilidades prácticas en el
+            campo.
           </p>
           <p>
-            Comprendi que hubo un cambio en el mercado laboral, lo que cual dejo
-            casi invisible mi perfil como programador por falta de estudios
-            academicos certificados, por lo que decidi seguir mi formacion bajo
-            el aval institucional, y estoy emocionado por encontrar mi primer
-            trabajo.
+            Entendí que el mercado laboral ha cambiado, y que sin estudios
+            académicos certificados, mi perfil podría pasar desapercibido. Por
+            eso, decidí continuar mi formación bajo el respaldo institucional, y
+            estoy emocionado por la oportunidad de encontrar mi{" "}
+            <span className="text-primary font-bold">
+              primer trabajo profesional.
+            </span>
           </p>
         </div>
-        <div className="flex justify-center p-2 mt-10">
-          <img className="size-52 bg-white" src="/assets/fotocv.webp" alt="" />
+        <div className="flex  justify-center p-2 ">
+          <img
+            className="size-52 bg-primary rounded-[90px]"
+            src="/assets/fotocv.webp"
+            alt=""
+          />
         </div>
       </main>
     </section>

@@ -30,16 +30,6 @@ const Experience = () => {
               Developer
             </h3>
             <h4 className="text-xs mt-2">Octubre 2022 - Actualidad</h4>
-            {/* <p className="mt-6 text-left tracking-wide">
-              Después de completar mi formación en Coder House, comencé a
-              adentrarme en entornos más profesionales dentro del desarrollo
-              web. Durante este tiempo, he{" "}
-              <span className="text-primary text-base">
-                continuado mi aprendizaje de manera autodidacta
-              </span>
-              , explorando diversas áreas para identificar aquella en la que
-              pueda destacarme mejor.
-            </p> */}
             <p className="mt-4 text-left tracking-wide">
               Hasta el momento, he trabajado en un proyecto profesional
               remunerado, del cual detallo más en la sección de "Proyectos".
