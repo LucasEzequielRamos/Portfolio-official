@@ -1,0 +1,5 @@
+- POner links en contactos
+- sumar animacoines de texto
+- agregar tema claro
+- agregar querys de laptop y pc
+- agregar proyectos con fotos e info
