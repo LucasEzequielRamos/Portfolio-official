@@ -14,7 +14,10 @@ const Navbar = () => {
         const sectionTop = section.offsetTop;
         const sectionHeight = section.clientHeight;
 
-        if (window.scrollY >= sectionTop - sectionHeight / 3) {
+        if (
+          window.scrollY >= sectionTop - sectionHeight / 3 ||
+          window.scrollY + window.innerHeight >= document.body.scrollHeight
+        ) {
           currentSection = section.getAttribute("id");
         }
       });

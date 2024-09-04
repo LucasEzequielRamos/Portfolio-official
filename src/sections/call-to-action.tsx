@@ -1,3 +1,5 @@
+import { VelocityScroll } from "@/components/magicui/scroll-based-velocity";
+
 const CallToAction = () => {
   return (
     <section className="mt-20 w-11/12 mx-auto">
@@ -14,6 +16,13 @@ const CallToAction = () => {
             Contactame
           </a>
         </div>
+      </div>
+
+      <div className="mt-20">
+        <VelocityScroll
+          className="text-xl font-bold w-56  text-primary tracking-wide   "
+          text="Podemos programarlo! "
+        />
       </div>
     </section>
   );

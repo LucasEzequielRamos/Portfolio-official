@@ -14,17 +14,20 @@ const Hero = () => {
           Estoy disponible para trabajar, contactame, ideemos y desarrollemos tu
           proyecto juntos
         </p>
-        <div className="flex items-center justify-center gap-3 text-primary [&>a]:border-[1px] [&>a]:border-primary [&>a]:rounded-full [&>a]:p-1 ">
-          <button className="p-2 border-[1px] border-primary rounded-full">
+        <div className="flex items-center justify-center gap-3 text-primary [&>a]:border-[1px] [&>a]:border-primary [&>a]:rounded-full [&>a]:p-2.5 ">
+          <a href="ES CV-Dev.pdf" download="LucasRamos-Resume.pdf">
             Descargar CV
-          </button>
-          <a href="#">
+          </a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/lucas-ramos-5b4aa1246/"
+          >
             <IconBrandLinkedin stroke={1} />
           </a>
-          <a href="#">
+          <a target="_blank" href="https://github.com/LucasEzequielRamos">
             <IconBrandGithub stroke={1} />
           </a>
-          <a href="#">
+          <a target="_blank" href="https://t.me/Lucas_Ezequiel_Ramos">
             <IconBrandTelegram stroke={1} />
           </a>
         </div>

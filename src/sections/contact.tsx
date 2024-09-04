@@ -13,13 +13,19 @@ const Contact = () => {
           Puedes contactarme por cualquiera de estas plataformas
         </h3>
         <div className="flex items-center justify-center gap-5 text-primary [&>a]:border-[2px] [&>a]:border-primary [&>a]:rounded-full [&>a]:p-2 ">
-          <a href="#">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/lucas-ramos-5b4aa1246/"
+          >
             <IconBrandLinkedin size={40} stroke={1.5} />
           </a>
-          <a href="#">
+          <a
+            target="_blank"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=lucaseramos13@gmail.com&su=Asunto&body=Mensaje"
+          >
             <IconBrandGmail size={40} stroke={1.5} />
           </a>
-          <a href="#">
+          <a target="_blank" href="https://t.me/Lucas_Ezequiel_Ramos">
             <IconBrandTelegram size={40} stroke={1.5} />
           </a>
         </div>

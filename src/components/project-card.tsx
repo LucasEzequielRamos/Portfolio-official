@@ -22,12 +22,17 @@ const ProjectCard = ({ project }: { project: Project }) => {
         <h4 className="text-2xl text-primary font-bold">{project.title}</h4>
         <p className="">{project.subtitle}</p>
         {project.description.length > 0 &&
-          project.description.map(paragraph => <p>{paragraph}</p>)}
+          project.description.map((paragraph, index) => (
+            <p key={index}>{paragraph}</p>
+          ))}
       </div>
       <footer className="flex flex-col mt-5 gap-5">
         <ul className=" text-xs flex flex-wrap  gap-3 ">
-          {project.technologies.map(tec => (
-            <li className="p-2 rounded-3xl bg-secondary min-w-12 text-center">
+          {project.technologies.map((tec, index) => (
+            <li
+              key={index}
+              className="p-2 rounded-3xl bg-secondary min-w-12 text-center"
+            >
               {tec}
             </li>
           ))}

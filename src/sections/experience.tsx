@@ -1,3 +1,4 @@
+import NumberTicker from "@/components/magicui/number-ticker";
 import TitleSection from "../components/title-section";
 
 const Experience = () => {
@@ -7,15 +8,21 @@ const Experience = () => {
       <main className="mt-10">
         <div className=" grid justify-between gap-2 text-sm text-center grid-cols-2 mx-auto [&>div]:border-l-4 [&>div]:px-2 [&>div>h3]:text-xl [&>div>h3]:text-primary [&>div>h3]:font-bold ">
           <div>
-            <h3>+2</h3>
+            <h3>
+              +<NumberTicker value={2} delay={1} />
+            </h3>
             <p>Años de experiencia</p>
           </div>
           <div>
-            <h3>1</h3>
+            <h3>
+              <NumberTicker value={1} delay={1} />
+            </h3>
             <p>Cliente satisfecho</p>
           </div>
           <div>
-            <h3>1</h3>
+            <h3>
+              <NumberTicker value={1} delay={1} />
+            </h3>
             <p>Proyecto finalizado</p>
           </div>
           <div>

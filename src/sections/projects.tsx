@@ -9,9 +9,10 @@ const Projects = () => {
       <TitleSection title="Mis proyectos" />
       <main className="mt-10">
         <div className="grid gap-5  divide-font/30 divide-y divide-dashed ">
-          {projectsArr.map((proj: Project) => {
-            return <ProjectCard key={proj.title} project={proj} />;
-          })}
+          {projectsArr.length > 0 &&
+            projectsArr.map((proj: Project) => {
+              return <ProjectCard key={proj.id} project={proj} />;
+            })}
         </div>
       </main>
     </section>
