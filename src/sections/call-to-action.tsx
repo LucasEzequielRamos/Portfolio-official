@@ -1,3 +1,4 @@
+import PulsatingButton from "@/components/magicui/pulsating-button";
 import { VelocityScroll } from "@/components/magicui/scroll-based-velocity";
 
 const CallToAction = () => {
@@ -8,19 +9,15 @@ const CallToAction = () => {
           <h2 className="text-lg w-48 ">¿Tienes algun proyecto en mente?</h2>
           <p className="text-xs mt-1">Trabajemos juntos, lo haremos realidad</p>
         </div>
-        <div>
-          <a
-            href="#contact"
-            className=" text-nowrap px-2 py-2 border-[1px] text-sm border-primary bg-primary rounded-full"
-          >
-            Contactame
-          </a>
-        </div>
+
+        <a href="#contact" className=" ">
+          <PulsatingButton>Contactame</PulsatingButton>
+        </a>
       </div>
 
       <div className="mt-20">
         <VelocityScroll
-          className="text-xl font-bold w-56  text-primary tracking-wide   "
+          className="text-base md:text-xl  font-bold text-primary "
           text="Podemos programarlo! "
         />
       </div>

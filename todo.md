@@ -1,4 +1,3 @@
-- sumar animacoines de texto
-- agregar tema claro
-- agregar querys de laptop y pc
 - agregar proyectos con fotos e info
+- Agregar iconos de skills
+- agregar querys de laptop y pc

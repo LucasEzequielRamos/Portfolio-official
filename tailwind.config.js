@@ -11,12 +11,12 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        grid: 'grid 15s linear infinite',
+        pulse: 'pulse var(--duration) ease-out infinite',
       },
       keyframes: {
-        grid: {
-          '0%': { transform: 'translateY(-50%)' },
-          '100%': { transform: 'translateY(0)' },
+        pulse: {
+          '0%, 100%': { boxShadow: '0 0 0 0 var(--pulse-color)' },
+          '50%': { boxShadow: '0 0 0 8px var(--pulse-color)' },
         },
       },
     },

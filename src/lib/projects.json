@@ -9,7 +9,7 @@
         ],
         "images": [
             {
-                "url": "/projects/lacruzora.png",
+                "url": "/projects/image.png",
                 "alt": ""
             },
             {
@@ -22,9 +22,11 @@
             }
         ],
         "technologies": [
-            "Next",
+            "NextJS",
             "TailwindCSS",
-            "Vercel PostgreSQL"
+            "Vercel PostgreSQL",
+            "TypeScript",
+            "API Telegram"
         ],
         "links": {
             "liveDemo": "https://www.lacruz-ora.com/",
@@ -41,15 +43,15 @@
         ],
         "images": [
             {
-                "url": "/projects/lacruzora.png",
+                "url": "/projects/the-way-camp.png",
                 "alt": ""
             },
             {
-                "url": "/projects/lacruzora2.png",
+                "url": "/projects/the-way-camp2.png",
                 "alt": ""
             },
             {
-                "url": "/projects/lacruzora3.png",
+                "url": "/projects/the-way-camp3.png",
                 "alt": ""
             }
         ],
