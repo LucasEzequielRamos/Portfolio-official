@@ -26,3 +26,11 @@ body {
 nav {
     backdrop-filter: var(blur(8px));
 }
+
+.image-gallery-bullet {
+    scale: 0.8 !important;
+}
+
+.image-gallery-svg {
+    scale: 0.7 !important;
+}

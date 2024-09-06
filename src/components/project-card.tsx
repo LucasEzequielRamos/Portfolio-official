@@ -5,12 +5,12 @@ import type { Project } from "../types/projects";
 
 const ProjectCard = ({ project }: { project: Project }) => {
   const images = project.images.map(image => {
-    return { original: image.url };
+    return { original: image.url, bulletClass: "backGround: #000;" };
   });
 
   return (
     <article className="p-3 gap-3 flex flex-col text-sm md:text-base  md:mx-auto">
-      <div>
+      <div className="lg:min-h-[250px] flex items-center ">
         <ImageGallery
           showBullets={true}
           showPlayButton={false}
@@ -28,7 +28,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
             <p key={index}>{paragraph}</p>
           ))}
       </div>
-      <footer className="flex flex-col mt-5 gap-5">
+      <footer className="flex flex-col mt-5 gap-5 lg:h-full lg:justify-between">
         <ul className=" text-xs md:text-sm flex flex-wrap  gap-3 ">
           {project.technologies.map((tec, index) => (
             <li

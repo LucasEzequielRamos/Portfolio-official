@@ -4,7 +4,7 @@ import { VelocityScroll } from "@/components/magicui/scroll-based-velocity";
 const CallToAction = () => {
   return (
     <section className="mb-40 md:mb-52 mt-20  mx-auto">
-      <div className="flex gap-2 w-11/12 mx-auto justify-between items-center bg-secondary py-2 md:py-8 px-4 md:px-6 rounded-3xl border border-primary">
+      <div className="flex gap-2 w-11/12 lg:w-9/12 mx-auto justify-between items-center bg-secondary py-2 md:py-8 px-4 md:px-6 rounded-3xl border border-primary">
         <div className="">
           <h2 className="text-lg md:text-2xl font-bold ">
             ¿Tienes algun proyecto en mente?
