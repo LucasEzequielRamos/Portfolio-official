@@ -6,15 +6,15 @@ const Hero = () => {
   return (
     <section className="flex flex-col mt-40 w-11/12 mx-auto">
       <div className="text-sm flex flex-col text-center">
-        <h3 className="text-2xl pb-2">Yo soy Lucas</h3>
-        <h2 className="text-4xl pb-8 font-bold bg-gradient-to-r from-primary via-primary/90 to-font bg-clip-text text-transparent">
+        <h3 className="text-2xl md:text-4xl pb-2">Yo soy Lucas</h3>
+        <h2 className="text-4xl md:text-6xl pb-8 font-bold bg-gradient-to-r from-primary via-primary/90 to-font bg-clip-text text-transparent">
           Web Fullstack Developer
         </h2>
-        <p className="pb-4">
+        <p className="pb-4 md:text-lg md:w-8/12 mx-auto">
           Estoy disponible para trabajar, contactame, ideemos y desarrollemos tu
           proyecto juntos
         </p>
-        <div className="flex items-center justify-center gap-3 text-primary [&>a]:border-[1px] [&>a]:border-primary [&>a]:rounded-full [&>a]:p-2.5 ">
+        <div className="flex items-center justify-center gap-3  text-primary md:text-lg [&>a>svg]:md:size-7 [&>a]:border-[1px] [&>a]:border-primary [&>a]:rounded-full [&>a]:p-2.5 ">
           <a href="ES CV-Dev.pdf" download="LucasRamos-Resume.pdf">
             Descargar CV
           </a>
@@ -32,7 +32,7 @@ const Hero = () => {
           </a>
         </div>
       </div>
-      <div>
+      <div className="flex justify-center mt-20">
         <img src="/assets/3d-image.webp" alt="image 3d to illustration" />
       </div>
     </section>

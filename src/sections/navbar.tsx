@@ -1,6 +1,4 @@
-import { IconMoon } from "@tabler/icons-react";
 import { useEffect, useState } from "react";
-// import { IconBrightnessUp } from "@tabler/icons-react";
 
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState<string | undefined>("");
@@ -15,10 +13,14 @@ const Navbar = () => {
         const sectionHeight = section.clientHeight;
 
         if (
-          window.scrollY >= sectionTop - sectionHeight / 3 ||
-          window.scrollY + window.innerHeight >= document.body.scrollHeight
+          window.scrollY >= sectionTop - sectionHeight / 3 &&
+          window.scrollY < sectionTop + sectionHeight - sectionHeight / 3
         ) {
           currentSection = section.getAttribute("id");
+        }
+
+        if (window.innerHeight + window.scrollY >= document.body.scrollHeight) {
+          currentSection = "contact";
         }
       });
 
@@ -27,6 +29,8 @@ const Navbar = () => {
 
     window.addEventListener("scroll", handleScroll);
 
+    handleScroll();
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -34,7 +38,7 @@ const Navbar = () => {
 
   return (
     <header className="flex w-screen fixed z-20">
-      <nav className="flex mt-1 m-auto px-2 py-2 gap-3 text-sm items-center justify-center rounded-[99px] backdrop-blur-md bg-background/10 [&>a:hover]:text-primary [&>a]:duration-300">
+      <nav className="flex mt-1 m-auto p-2 md:p-3 gap-3 md:gap-5 text-sm md:text-base items-center justify-center rounded-[99px] backdrop-blur-md bg-background/10 [&>a:hover]:text-primary [&>a]:duration-300">
         <a
           href="#experiencie"
           className={activeSection === "experiencie" ? "text-primary" : ""}

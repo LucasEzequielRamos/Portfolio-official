@@ -14,7 +14,7 @@ export default function PulsatingButton({
   className,
   children,
   pulseColor = "#7a4ae4",
-  duration = "1.5s",
+  duration = "1s",
   ...props
 }: PulsatingButtonProps) {
   return (

@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        pulse: 'pulse var(--duration) ease-out infinite',
+        pulse: 'pulse 0.7s ease-out infinite',
       },
       keyframes: {
         pulse: {

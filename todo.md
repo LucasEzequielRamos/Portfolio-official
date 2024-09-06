@@ -1,3 +1,1 @@
-- agregar proyectos con fotos e info
-- Agregar iconos de skills
 - agregar querys de laptop y pc

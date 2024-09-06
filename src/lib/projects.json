@@ -9,7 +9,7 @@
         ],
         "images": [
             {
-                "url": "/projects/image.png",
+                "url": "/projects/lacruzora.png",
                 "alt": ""
             },
             {
@@ -35,11 +35,11 @@
     },
     {
         "id": 2,
-        "title": "La Cruz Ora 2",
-        "subtitle": "Pagina de La Cruz Buenos Aires.",
+        "title": "The Way Camp",
+        "subtitle": "Pagina del campamento The Way Camp.",
         "description": [
-            "Desarrollé un sistema que permite a los miembros de una iglesia enviar sus pedidos de oración a un grupo en Telegram.",
-            "Utilicé tecnologías como Next.js, PostgreSQL en Vercel, y la API  oficial de Telegram. El proyecto implicó el desafío de integrar APIs de mensajería para comunicar eficientemente con más de 50 personas por pedido, logrando una solución efectiva y económica."
+            "Este proyecto fue una landing page estática para un campamento, basada en diseños creados en Figma. La estructura fue diseñada para garantizar una navegación intuitiva y mantener la estética original.",
+            "Utilicé Tailwind CSS para el desarrollo del frontend, lo que facilitó un código limpio y modular, permitiendo un desarrollo rápido y un fácil mantenimiento."
         ],
         "images": [
             {
@@ -56,45 +56,40 @@
             }
         ],
         "technologies": [
-            "Next",
+            "JavaScript",
             "TailwindCSS",
-            "Vercel PostgreSQL"
+            "ReactJS"
         ],
         "links": {
-            "liveDemo": "https://www.lacruz-ora.com/",
-            "sourceCode": "https://github.com/LucasEzequielRamos/request-page-lacruz-oficial"
+            "liveDemo": "https://the-way-camp-3vqwhjepx-lucasezequielbecerra.vercel.app/",
+            "sourceCode": "https://github.com/LucasEzequielRamos/The-Way-Camp"
         }
     },
     {
         "id": 3,
-        "title": "La Cruz Ora 3",
-        "subtitle": "Pagina de La Cruz Buenos Aires.",
+        "title": "Twitter Clone",
+        "subtitle": "Pagina clonada de twitter para practica.",
         "description": [
-            "Desarrollé un sistema que permite a los miembros de una iglesia enviar sus pedidos de oración a un grupo en Telegram.",
-            "Utilicé tecnologías como Next.js, PostgreSQL en Vercel, y la API  oficial de Telegram. El proyecto implicó el desafío de integrar APIs de mensajería para comunicar eficientemente con más de 50 personas por pedido, logrando una solución efectiva y económica."
+            "Este proyecto es un clon de la red social Twitter que incluye algunas de sus funcionalidades principales. Utilicé tecnologías como NextJS, Prisma ORM, MySQL y Tailwind CSS. Implementé Next Auth para gestionar la autorización y las cookies de sesión.",
+            "Además, se realizaron acciones del servidor mediante fetch a las rutas de la API, gestionando encabezados personalizados y respuestas específicas del servidor."
         ],
         "images": [
             {
-                "url": "/projects/lacruzora.png",
-                "alt": ""
-            },
-            {
-                "url": "/projects/lacruzora2.png",
-                "alt": ""
-            },
-            {
-                "url": "/projects/lacruzora3.png",
+                "url": "/projects/twitter-clone.webp",
                 "alt": ""
             }
         ],
         "technologies": [
-            "Next",
+            "NextJs",
             "TailwindCSS",
-            "Vercel PostgreSQL"
+            "TypeScript",
+            "Prisma ORM",
+            "MySQL",
+            "Next Auth"
         ],
         "links": {
-            "liveDemo": "https://www.lacruz-ora.com/",
-            "sourceCode": "https://github.com/LucasEzequielRamos/request-page-lacruz-oficial"
+            "liveDemo": "https://twitter-clone-theta-bay.vercel.app/",
+            "sourceCode": "https://github.com/LucasEzequielRamos/Twitter-Clone"
         }
     }
 ]

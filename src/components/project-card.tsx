@@ -10,7 +10,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
 
   return (
     <article className="p-3 gap-3 flex flex-col text-sm">
-      <div className="min-h-[250px]">
+      <div>
         <ImageGallery
           showBullets={true}
           showPlayButton={false}
@@ -20,7 +20,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
       </div>
       <div className="flex flex-col gap-3">
         <h4 className="text-2xl text-primary font-bold">{project.title}</h4>
-        <p className="">{project.subtitle}</p>
+        <p className="font-bold">{project.subtitle}</p>
         {project.description.length > 0 &&
           project.description.map((paragraph, index) => (
             <p key={index}>{paragraph}</p>
