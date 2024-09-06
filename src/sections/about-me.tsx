@@ -2,9 +2,9 @@ import TitleSection from "../components/title-section";
 
 const AboutMe = () => {
   return (
-    <section id="about-me" className=" mt-20 w-11/12 mx-auto">
+    <section id="about-me" className=" mt-20 w-11/12 md:w-9/12 mx-auto">
       <TitleSection title="Sobre mi" />
-      <main className="mt-10 flex flex-col-reverse gap-10">
+      <main className="mt-10 flex flex-col-reverse gap-10  md:mx-auto md:text-lg">
         <div className="flex flex-col gap-4 ">
           <p>
             Mi nombre es Lucas Ezequiel Ramos, tengo 20 años y actualmente
@@ -38,11 +38,11 @@ const AboutMe = () => {
             </span>
           </p>
         </div>
-        <div className="flex  justify-center p-2 ">
+        <div className="flex justify-center p-2 ">
           <img
-            className="size-52 bg-primary rounded-[90px]"
+            className="size-52 md:size-60 bg-primary rounded-[90px]"
             src="/assets/fotocv.webp"
-            alt=""
+            alt="Foto de presentacion"
           />
         </div>
       </main>

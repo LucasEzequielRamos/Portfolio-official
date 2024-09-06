@@ -3,7 +3,7 @@ import TitleSection from "../components/title-section";
 
 const Experience = () => {
   return (
-    <section id="experiencie" className=" mt-20 w-11/12 mx-auto">
+    <section id="experiencie" className=" mt-20 w-11/12 md:w-9/12 mx-auto">
       <TitleSection title="Mi trayectoria profesional" />
       <main className="mt-10">
         <div className=" grid justify-between gap-2 text-sm md:text-base text-center grid-cols-2 mx-auto [&>div]:border-l-4 [&>div]:px-2 [&>div>h3]:text-xl [&>div>h3]:md:text-2xl [&>div>h3]:text-primary [&>div>h3]:font-bold ">

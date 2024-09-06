@@ -9,7 +9,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
   });
 
   return (
-    <article className="p-3 gap-3 flex flex-col text-sm">
+    <article className="p-3 gap-3 flex flex-col text-sm md:text-base  md:mx-auto">
       <div>
         <ImageGallery
           showBullets={true}
@@ -19,7 +19,9 @@ const ProjectCard = ({ project }: { project: Project }) => {
         />
       </div>
       <div className="flex flex-col gap-3">
-        <h4 className="text-2xl text-primary font-bold">{project.title}</h4>
+        <h4 className="text-2xl md:text-3xl text-primary font-bold">
+          {project.title}
+        </h4>
         <p className="font-bold">{project.subtitle}</p>
         {project.description.length > 0 &&
           project.description.map((paragraph, index) => (
@@ -27,11 +29,11 @@ const ProjectCard = ({ project }: { project: Project }) => {
           ))}
       </div>
       <footer className="flex flex-col mt-5 gap-5">
-        <ul className=" text-xs flex flex-wrap  gap-3 ">
+        <ul className=" text-xs md:text-sm flex flex-wrap  gap-3 ">
           {project.technologies.map((tec, index) => (
             <li
               key={index}
-              className="p-2 rounded-3xl bg-secondary min-w-12 text-center"
+              className="p-2 md:p-2.5 rounded-3xl bg-secondary  text-center"
             >
               {tec}
             </li>
