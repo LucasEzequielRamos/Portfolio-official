@@ -6,6 +6,8 @@
     font-family: Arial, Helvetica, sans-serif, system-ui;
     line-height: 1.5;
     font-weight: 400;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 
     color-scheme: light dark;
     @apply text-font;
@@ -21,10 +23,15 @@ body {
     margin: 0;
     display: flex;
     min-height: 100vh;
+
 }
 
 nav {
     backdrop-filter: var(blur(8px));
+}
+
+.image-gallery-slide {
+    cursor: default;
 }
 
 .image-gallery-bullet {
@@ -33,4 +40,25 @@ nav {
 
 .image-gallery-svg {
     scale: 0.7 !important;
+}
+
+::-webkit-scrollbar {
+    @apply w-3
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-secondary;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-secondary/50
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-background
+}
+
+::-webkit-scrollbar-corner {
+    @apply bg-background
 }

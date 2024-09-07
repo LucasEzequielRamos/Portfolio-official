@@ -28,6 +28,11 @@ module.exports = {
       },
     },
     extend: {
+      boxShadow: {
+        'box-shadow': '3px 5px 24px 0px rgba(15,7,22,0.75);',
+        '-webkit-box-shadow': ' 3px 5px 24px 0px rgba(15,7,22,0.75);',
+        '-moz-box-shadow': '3px 5px 24px 0px rgba(15,7,22,0.75);',
+      },
       colors: {
         primary: '#7a4ae4',
         secondary: '#382760',

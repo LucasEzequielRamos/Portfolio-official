@@ -1,1 +1,0 @@
-- agregar querys de laptop y pc

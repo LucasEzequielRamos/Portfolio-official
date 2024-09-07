@@ -38,7 +38,7 @@ const Navbar = () => {
 
   return (
     <header className="flex w-screen fixed z-20">
-      <nav className="flex mt-1 m-auto p-2 md:p-3 gap-3 md:gap-5 text-sm md:text-base items-center justify-center rounded-[99px] backdrop-blur-md bg-background/10 [&>a:hover]:text-primary [&>a]:duration-300">
+      <nav className="flex mt-1 m-auto p-2 md:p-3 gap-3 md:gap-5 text-sm md:text-base items-center justify-center rounded-[99px] backdrop-blur-md bg-background/10 [&>a:hover]:text-primary [&>a]:duration-300 shadow-box-shadow">
         <a
           href="#experiencie"
           className={activeSection === "experiencie" ? "text-primary" : ""}

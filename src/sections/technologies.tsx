@@ -28,9 +28,12 @@ const slugs = [
 
 const Technologies = () => {
   return (
-    <section id="technologies" className=" mt-20 w-11/12 mx-auto">
+    <section
+      id="technologies"
+      className=" mt-20 w-11/12 md:w-9/12 2xl:w-8/12 mx-auto"
+    >
       <TitleSection title="Tecnologias" />
-      <div className="relative flex h-full w-full mx-auto max-w-[32rem] items-center justify-center overflow-hidden rounded-lg  mt-10 bg-radial-gradient">
+      <div className="relative flex h-full w-full mx-auto max-w-[32rem] 2xl:max-w-full items-center justify-center overflow-hidden rounded-lg  mt-10 bg-radial-gradient">
         <IconCloud iconSlugs={slugs} />
       </div>
     </section>

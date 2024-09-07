@@ -6,7 +6,7 @@ import {
 
 const Contact = () => {
   return (
-    <section id="contact" className="mt-20 w-11/12 mx-auto">
+    <section id="contact" className="mt-20 w-11/12 lg:w-8/12 mx-auto">
       <div className="mt-5 flex flex-col lg:flex-row lg:justify-between lg:items-end py-2 gap-4">
         <div>
           <h2 className="text-2xl font-bold pb-5">Contacto</h2>
@@ -14,7 +14,7 @@ const Contact = () => {
             Puedes contactarme por cualquiera de estas plataformas
           </h3>
         </div>
-        <div className="flex items-center justify-center gap-5 text-primary [&>a]:border-[2px] [&>a]:border-primary [&>a]:rounded-full [&>a]:p-2 ">
+        <div className="flex items-center justify-center gap-5 text-primary [&>a]:border-[2px] [&>a]:border-primary [&>a]:rounded-full [&>a]:p-2 [&>a:hover]:scale-105 [&>a:hover]:bg-primary [&>a:hover]:text-font  [&>a]:duration-300 ">
           <a
             target="_blank"
             href="https://www.linkedin.com/in/lucas-ramos-5b4aa1246/"

@@ -9,8 +9,8 @@ const ProjectCard = ({ project }: { project: Project }) => {
   });
 
   return (
-    <article className="p-3 gap-3 flex flex-col text-sm md:text-base  md:mx-auto">
-      <div className="lg:min-h-[250px] flex items-center ">
+    <article className="p-3 gap-3 flex flex-col text-sm md:text-base 2xl:text-lg md:mx-auto ">
+      <div className="lg:min-h-[250px] xl:min-h-[370px] 2xl:min-h-[510px] flex items-center !cursor-help ">
         <ImageGallery
           showBullets={true}
           showPlayButton={false}
@@ -19,7 +19,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
         />
       </div>
       <div className="flex flex-col gap-3">
-        <h4 className="text-2xl md:text-3xl text-primary font-bold">
+        <h4 className="text-2xl md:text-3xl 2xl:text-4xl text-primary font-bold">
           {project.title}
         </h4>
         <p className="font-bold">{project.subtitle}</p>
@@ -29,7 +29,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
           ))}
       </div>
       <footer className="flex flex-col mt-5 gap-5 lg:h-full lg:justify-between">
-        <ul className=" text-xs md:text-sm flex flex-wrap  gap-3 ">
+        <ul className=" text-xs md:text-sm 2xl:text-base flex flex-wrap  gap-3 ">
           {project.technologies.map((tec, index) => (
             <li
               key={index}
@@ -39,7 +39,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
             </li>
           ))}
         </ul>
-        <div className="flex gap-2  text-primary [&>a]:p-2 [&>a]:border-[1px] [&>a]:border-primary [&>a]:rounded-full [&>a]:flex [&>a]:justify-center [&>a]:items-center [&>a]:gap-1">
+        <div className="flex gap-4  text-primary [&>a]:p-2 [&>a]:border-[1px] [&>a]:border-primary [&>a]:rounded-full [&>a]:flex [&>a]:justify-center [&>a]:items-center [&>a]:gap-1 [&>a:hover]:scale-105 [&>a:hover]:bg-primary [&>a:hover]:text-font  [&>a]:duration-300">
           <a href={project.links.liveDemo} target="_blank">
             Preview
             <IconArrowUpRight stroke={1} />

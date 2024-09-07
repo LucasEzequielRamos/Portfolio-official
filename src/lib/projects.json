@@ -9,15 +9,15 @@
         ],
         "images": [
             {
-                "url": "/projects/lacruzora.png",
+                "url": "/projects/lacruzora.webp",
                 "alt": ""
             },
             {
-                "url": "/projects/lacruzora2.png",
+                "url": "/projects/lacruzora2.webp",
                 "alt": ""
             },
             {
-                "url": "/projects/lacruzora3.png",
+                "url": "/projects/lacruzora3.webp",
                 "alt": ""
             }
         ],
@@ -43,15 +43,15 @@
         ],
         "images": [
             {
-                "url": "/projects/the-way-camp.png",
+                "url": "/projects/the-way-camp.webp",
                 "alt": ""
             },
             {
-                "url": "/projects/the-way-camp2.png",
+                "url": "/projects/the-way-camp2.webp",
                 "alt": ""
             },
             {
-                "url": "/projects/the-way-camp3.png",
+                "url": "/projects/the-way-camp3.webp",
                 "alt": ""
             }
         ],
@@ -68,7 +68,7 @@
     {
         "id": 3,
         "title": "Twitter Clone",
-        "subtitle": "Pagina clonada de twitter para practica.",
+        "subtitle": "Pagina clonada de Twitter para practica.",
         "description": [
             "Este proyecto es un clon de la red social Twitter que incluye algunas de sus funcionalidades principales. Utilicé tecnologías como NextJS, Prisma ORM, MySQL y Tailwind CSS. Implementé Next Auth para gestionar la autorización y las cookies de sesión.",
             "Además, se realizaron acciones del servidor mediante fetch a las rutas de la API, gestionando encabezados personalizados y respuestas específicas del servidor."
