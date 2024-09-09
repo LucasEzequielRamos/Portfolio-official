@@ -18,18 +18,20 @@ const Experience = () => {
           </div>
           <div>
             <h3>
-              <NumberTicker value={1} delay={1} />
+              <NumberTicker value={2} delay={1} />
             </h3>
             <p>Cliente satisfecho</p>
           </div>
           <div>
             <h3>
-              <NumberTicker value={1} delay={1} />
+              <NumberTicker value={2} delay={1} />
             </h3>
             <p>Proyecto finalizado</p>
           </div>
           <div>
-            <h3>0</h3>
+            <h3>
+              <NumberTicker value={1} delay={1} />
+            </h3>
             <p>Proyectos en curso</p>
           </div>
         </div>
@@ -46,7 +48,7 @@ const Experience = () => {
               Hasta el momento, he trabajado en un proyecto profesional
               remunerado, del cual detallo más en la sección de "Proyectos".
               Este primer{" "}
-              <span className="text-primary text-base md:text-lg">
+              <span className="text-primary font-bold">
                 desafío enriquecedor
               </span>
               , desarrollado para una institución, fue una experiencia que me
@@ -55,13 +57,13 @@ const Experience = () => {
             </p>
             <p className="mt-4 text-left tracking-wide md:tracking-normal">
               Actualmente, me encuentro{" "}
-              <span className="text-primary text-base md:text-lg 2xl:text-xl">
+              <span className="text-primary font-bold ">
                 motivado y en constante búsqueda
               </span>{" "}
               de nuevos proyectos y oportunidades laborales que me permitan
               seguir aprendiendo y aportando valor. Estoy ansioso por contribuir
               con mis conocimientos y seguir{" "}
-              <span className="text-primary text-base md:text-lg 2xl:text-xl">
+              <span className="text-primary font-bold ">
                 desarrollándome profesionalmente
               </span>{" "}
               en un entorno que me permita crecer y enfrentar nuevos retos.

@@ -33,7 +33,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
           {project.technologies.map((tec, index) => (
             <li
               key={index}
-              className="p-2 md:p-2.5 rounded-3xl bg-secondary  text-center"
+              className="py-2 px-3 md:py-2.5 md:px-3.5 rounded-3xl bg-secondary  text-center"
             >
               {tec}
             </li>

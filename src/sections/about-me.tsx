@@ -7,8 +7,8 @@ const AboutMe = () => {
       className=" mt-20 w-11/12 md:w-9/12 2xl:w-8/12 mx-auto"
     >
       <TitleSection title="Sobre mi" />
-      <main className="mt-10 flex flex-col-reverse 2xl:flex-row gap-10  md:mx-auto md:text-lg 2xl:text-xl">
-        <div className="flex flex-col gap-4 ">
+      <main className="mt-10 flex flex-col-reverse xl:flex-row gap-10  md:mx-auto md:text-lg 2xl:text-xl">
+        <div className="flex flex-col gap-4 mx-2">
           <p>
             Mi nombre es Lucas Ezequiel Ramos, tengo 20 años y actualmente
             estudio Licenciatura en Informática. Mi pasión es la{" "}
@@ -41,9 +41,9 @@ const AboutMe = () => {
             </span>
           </p>
         </div>
-        <div className="flex justify-center p-2 lg:w-full">
+        <div className="flex justify-center xl:justify-end items-center xl:min-w-96">
           <img
-            className="size-52 md:size-60 2xl:size-80 bg-primary rounded-[90px]"
+            className="size-52 md:size-60 xl:size-80 rounded-full  bg-primary "
             src="/assets/fotocv.webp"
             alt="Foto de presentacion"
           />
