@@ -1,0 +1,4 @@
+user-agent: *
+Disallow: /private/
+Allow: /
+Sitemap: https://portfolio-official-wheat.vercel.app/sitemap.xml

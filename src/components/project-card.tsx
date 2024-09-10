@@ -5,23 +5,27 @@ import type { Project } from "../types/projects";
 
 const ProjectCard = ({ project }: { project: Project }) => {
   const images = project.images.map(image => {
-    return { original: image.url, bulletClass: "backGround: #000;" };
+    return {
+      original: image.url,
+      bulletClass: "backGround: #000;",
+      originalAlt: image.alt,
+    };
   });
 
   return (
     <article className="p-3 gap-3 flex flex-col text-sm md:text-base 2xl:text-lg md:mx-auto ">
       <div className="lg:min-h-[250px] xl:min-h-[370px] 2xl:min-h-[510px] flex items-center !cursor-help ">
         <ImageGallery
-          showBullets={true}
+          showBullets={false}
           showPlayButton={false}
           showFullscreenButton={false}
           items={images}
         />
       </div>
       <div className="flex flex-col gap-3">
-        <h4 className="text-2xl md:text-3xl 2xl:text-4xl text-primary font-bold">
+        <h5 className="text-2xl md:text-3xl 2xl:text-4xl text-primary font-bold">
           {project.title}
-        </h4>
+        </h5>
         <p className="font-bold">{project.subtitle}</p>
         {project.description.length > 0 &&
           project.description.map((paragraph, index) => (
@@ -40,11 +44,19 @@ const ProjectCard = ({ project }: { project: Project }) => {
           ))}
         </ul>
         <div className="flex gap-4  text-primary [&>a]:p-2 [&>a]:border-[1px] [&>a]:border-primary [&>a]:rounded-full [&>a]:flex [&>a]:justify-center [&>a]:items-center [&>a]:gap-1 [&>a:hover]:scale-105 [&>a:hover]:bg-primary [&>a:hover]:text-font  [&>a]:duration-300">
-          <a href={project.links.liveDemo} target="_blank">
+          <a
+            href={project.links.liveDemo}
+            aria-label="Link to liveDemo"
+            target="_blank"
+          >
             Preview
             <IconArrowUpRight stroke={1} />
           </a>
-          <a href={project.links.sourceCode} target="_blank">
+          <a
+            href={project.links.sourceCode}
+            aria-label="Link to Source code"
+            target="_blank"
+          >
             Code
             <IconBrandGithub stroke={1} />
           </a>

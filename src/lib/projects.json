@@ -10,15 +10,15 @@
         "images": [
             {
                 "url": "/projects/lacruzora.webp",
-                "alt": ""
+                "alt": "Imagen demostrativa del proyecto La Cruz Ora"
             },
             {
                 "url": "/projects/lacruzora2.webp",
-                "alt": ""
+                "alt": "Imagen demostrativa del proyecto La Cruz Ora"
             },
             {
                 "url": "/projects/lacruzora3.webp",
-                "alt": ""
+                "alt": "Imagen demostrativa del proyecto La Cruz Ora"
             }
         ],
         "technologies": [
@@ -44,15 +44,15 @@
         "images": [
             {
                 "url": "/projects/the-way-camp.webp",
-                "alt": ""
+                "alt": "Imagen demostrativa del proyecto The Way Camp"
             },
             {
                 "url": "/projects/the-way-camp2.webp",
-                "alt": ""
+                "alt": "Imagen demostrativa del proyecto The Way Camp"
             },
             {
                 "url": "/projects/the-way-camp3.webp",
-                "alt": ""
+                "alt": "Imagen demostrativa del proyecto The Way Camp"
             }
         ],
         "technologies": [
@@ -76,7 +76,7 @@
         "images": [
             {
                 "url": "/projects/twitter-clone.webp",
-                "alt": ""
+                "alt": "Imagen demostrativa del proyecto Twitter Clone"
             }
         ],
         "technologies": [

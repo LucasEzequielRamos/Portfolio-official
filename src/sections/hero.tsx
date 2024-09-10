@@ -17,19 +17,32 @@ const Hero = () => {
           proyecto juntos.
         </p>
         <div className="flex items-center justify-center lg:justify-start lg:w-fit gap-3  text-primary  [&>a>svg]:md:size-7 [&>a]:border-[1px] [&>a]:border-primary [&>a]:rounded-full [&>a]:p-2.5 [&>a:hover]:scale-105 [&>a:hover]:bg-primary [&>a:hover]:text-font  [&>a]:duration-300">
-          <a href="ES CV-Dev.pdf" download="LucasRamos-Resume.pdf">
+          <a
+            aria-label="Link to download my cv"
+            href="ES CV-Dev.pdf"
+            download="LucasRamos-Resume.pdf"
+          >
             Descargar CV
           </a>
           <a
             target="_blank"
+            aria-label="Link to my linkedin"
             href="https://www.linkedin.com/in/lucas-ramos-5b4aa1246/"
           >
             <IconBrandLinkedin stroke={1} />
           </a>
-          <a target="_blank" href="https://github.com/LucasEzequielRamos">
+          <a
+            target="_blank"
+            aria-label="Link to my github"
+            href="https://github.com/LucasEzequielRamos"
+          >
             <IconBrandGithub stroke={1} />
           </a>
-          <a target="_blank" href="https://t.me/Lucas_Ezequiel_Ramos">
+          <a
+            target="_blank"
+            aria-label="Link to my telegram chat"
+            href="https://t.me/Lucas_Ezequiel_Ramos"
+          >
             <IconBrandTelegram viewBox="1 0 24 24" stroke={1} />
           </a>
         </div>
