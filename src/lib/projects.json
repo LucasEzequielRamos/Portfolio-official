@@ -77,6 +77,14 @@
             {
                 "url": "/projects/twitter-clone.webp",
                 "alt": "Imagen demostrativa del proyecto Twitter Clone"
+            },
+            {
+                "url": "/projects/twitter-clone2.webp",
+                "alt": "Imagen demostrativa del proyecto Twitter Clone"
+            },
+            {
+                "url": "/projects/twitter-clone3.webp",
+                "alt": "Imagen demostrativa del proyecto Twitter Clone"
             }
         ],
         "technologies": [
@@ -90,6 +98,40 @@
         "links": {
             "liveDemo": "https://twitter-clone-theta-bay.vercel.app/",
             "sourceCode": "https://github.com/LucasEzequielRamos/Twitter-Clone"
+        }
+    },
+    {
+        "id": 4,
+        "title": "Art&Air",
+        "subtitle": "Pagina de venta de productos ficticios.",
+        "description": [
+            "Art&Air es un e-commerce ficticio creado como proyecto final en CoderHouse. El objetivo de la plataforma es ofrecer una experiencia visual elegante y moderna para la compra de obras de arte contemporáneo.",
+            "El proyecto incluye funcionalidades esenciales como la gestión de productos y un diseño responsivo. Art&Air está diseñado para brindar una experiencia atractiva."
+        ],
+        "images": [
+            {
+                "url": "/projects/ArtAir.webp",
+                "alt": "Imagen demostrativa del proyecto Art&Air"
+            },
+            {
+                "url": "/projects/ArtAir2.webp",
+                "alt": "Imagen demostrativa del proyecto Art&Air"
+            },
+            {
+                "url": "/projects/ArtAir3.webp",
+                "alt": "Imagen demostrativa del proyecto Art&Air"
+            }
+        ],
+        "technologies": [
+            "ReactJS",
+            "Bootstrap",
+            "React Router",
+            "Firebase",
+            "Context"
+        ],
+        "links": {
+            "liveDemo": "https://art-air.vercel.app/",
+            "sourceCode": "https://github.com/LucasEzequielRamos/ArtAir"
         }
     }
 ]
