@@ -35,6 +35,41 @@
     },
     {
         "id": 2,
+        "title": "Invitación de Boda Interactiva",
+        "subtitle": "Landing de confirmación de asistencia para evento",
+        "description": [
+            "Desarrollé una página web interactiva para nuestra boda, donde los invitados podían confirmar asistencia ingresando su nombre, apellido y número de celular, además de acceder a toda la información importante del evento y una galería con fotos de la preboda.",
+            "También integré una lista de regalos conectada a una base de datos con persistencia, permitiendo a los invitados elegir entre acceder al artículo o realizar una transferencia directa. El proyecto combina diseño elegante, funcionalidad moderna y tecnologías actuales para ofrecer una experiencia fluida y personalizada."
+        ],
+        "images": [
+            {
+                "url": "/projects/wedding-project.webp",
+                "alt": "Vista principal del proyecto Invitación de Boda Interactiva"
+            },
+            {
+                "url": "/projects/wedding-project2.webp",
+                "alt": "Sección de confirmación de asistencia en el proyecto de boda"
+            },
+            {
+                "url": "/projects/wedding-project3.webp",
+                "alt": "Vista de la lista de regalos en la invitación de boda"
+            }
+        ],
+        "technologies": [
+            "React",
+            "Vite",
+            "TailwindCSS",
+            "Supabase",
+            "Sonner",
+            "Vercel"
+        ],
+        "links": {
+            "liveDemo": "https://wedding-project-xgvf.vercel.app/",
+            "sourceCode": "https://github.com/LucasEzequielRamos/wedding-project"
+        }
+    },
+    {
+        "id": 3,
         "title": "The Way Camp",
         "subtitle": "Pagina del campamento The Way Camp.",
         "description": [

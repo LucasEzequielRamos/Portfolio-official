@@ -34,8 +34,12 @@ const AboutMe = () => {
           <p>
             Entendí que el mercado laboral ha cambiado, y que sin estudios
             académicos certificados, mi perfil podría pasar desapercibido. Por
-            eso, decidí continuar mi formación bajo el respaldo institucional, y
-            estoy emocionado por la oportunidad de encontrar mi{" "}
+            eso, decidí continuar mi formación bajo el respaldo institucional,
+            en la carrera de{" "}
+            <span className="text-primary font-bold">
+              Licenciatura en Informatica{" "}
+            </span>
+            y estoy emocionado por la oportunidad de encontrar mi{" "}
             <span className="text-primary font-bold">
               primer trabajo profesional.
             </span>
